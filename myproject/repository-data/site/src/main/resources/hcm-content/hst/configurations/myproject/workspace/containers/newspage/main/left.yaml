@@ -1,0 +1,10 @@
+/hst:hst/hst:configurations/myproject/hst:workspace/hst:containers/newspage/main/left:
+  jcr:primaryType: hst:containercomponent
+  hippo:identifier: ebc162d1-f96f-49f1-9ce2-5547de944e84
+  hst:label: News Page Main
+  hst:xtype: hst.vbox
+  /content:
+    jcr:primaryType: hst:containeritemcomponent
+    hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+    hst:label: Content
+    hst:template: newspage-main

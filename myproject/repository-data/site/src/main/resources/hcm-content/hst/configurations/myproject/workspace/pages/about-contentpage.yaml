@@ -1,0 +1,37 @@
+/hst:hst/hst:configurations/myproject/hst:workspace/hst:pages/about-contentpage:
+  jcr:primaryType: hst:component
+  hst:lastmodified: 2021-09-21T17:23:56.260+02:00
+  hst:referencecomponent: hst:abstractpages/twocolumns
+  /main:
+    jcr:primaryType: hst:component
+    /left:
+      jcr:primaryType: hst:containercomponent
+      hippo:identifier: 1c245a5d-c8b0-48d3-aba7-b87b2f1329e5
+      hst:label: Content Page Main
+      hst:lastmodified: 2021-09-22T13:18:01.524+02:00
+      hst:xtype: hst.vbox
+      /carousel:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsCarouselComponent
+        hst:iconpath: images/essentials/catalog-component-icons/carousel.svg
+        hst:label: Carousel
+        hst:parameternames: [document4, document3, document6, document5, document2,
+          document1, cycle, pause, carouselWidth, carouselHeight, carouselBackgroundColor,
+          showNavigation, interval]
+        hst:parametervalues: ['', '', '', '', '', banners/banner2, 'on', 'on', '700',
+          '250', '#FFFFFF', 'on', '3000']
+        hst:template: essentials-carousel
+      /simplecontent:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+        hst:iconpath: images/essentials/catalog-component-icons/simple-content.svg
+        hst:label: Simple Content
+        hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+        hst:parametervalues: [about/about-gogreen, 'webfile:/freemarker/hstdefault/contentpage-main.ftl']
+        hst:template: contentpage-main
+    /right:
+      jcr:primaryType: hst:component
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsMenuComponent
+      hst:parameternames: [menu]
+      hst:parametervalues: [main]
+      hst:template: twocolumns-right-menu

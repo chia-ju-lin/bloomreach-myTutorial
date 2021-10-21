@@ -1,0 +1,10 @@
+/hst:hst/hst:configurations/myproject/hst:workspace/hst:containers/contentpage/main/left:
+  jcr:primaryType: hst:containercomponent
+  hippo:identifier: 0d9d48eb-76ab-4d99-83ed-9de02a328d26
+  hst:label: Content Page Main
+  hst:xtype: hst.vbox
+  /content:
+    jcr:primaryType: hst:containeritemcomponent
+    hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+    hst:label: Content
+    hst:template: contentpage-main

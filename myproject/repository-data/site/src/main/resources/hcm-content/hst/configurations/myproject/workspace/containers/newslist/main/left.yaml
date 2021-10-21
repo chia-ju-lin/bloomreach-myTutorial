@@ -1,0 +1,14 @@
+/hst:hst/hst:configurations/myproject/hst:workspace/hst:containers/newslist/main/left:
+  jcr:primaryType: hst:containercomponent
+  hippo:identifier: 4f4719c3-d296-47f9-bf73-103b3a1f048b
+  hst:label: News List Main
+  hst:xtype: hst.vbox
+  /newslist:
+    jcr:primaryType: hst:containeritemcomponent
+    hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsNewsComponent
+    hst:label: News List
+    hst:parameternames: [hidePastEvents, documentTypes, sortField, sortOrder, includeSubtypes,
+      showPagination, path, pageSize, documentDateField, hideFutureItems]
+    hst:parametervalues: ['on', 'myproject:newsdocument', '', desc, 'off', 'on', '',
+      '10', 'myproject:date', 'on']
+    hst:template: newslist-main-newslist

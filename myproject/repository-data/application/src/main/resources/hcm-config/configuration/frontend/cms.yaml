@@ -1,0 +1,59 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/myproject:small:
+      .meta:order-before: myproject:large
+      jcr:primaryType: frontend:pluginconfig
+      height: 224
+      upscaling: false
+      width: 491
+      compression: 1.0
+      cropping: false
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/myproject:large:
+      .meta:order-before: myproject:banner
+      jcr:primaryType: frontend:pluginconfig
+      height: 302
+      upscaling: false
+      width: 663
+      compression: 1.0
+      cropping: false
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/myproject:smallsquare:
+      .meta:order-before: myproject:mediumsquare
+      jcr:primaryType: frontend:pluginconfig
+      height: 233
+      upscaling: false
+      width: 233
+      compression: 1.0
+      cropping: false
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/myproject:mediumsquare:
+      .meta:order-before: myproject:largesquare
+      jcr:primaryType: frontend:pluginconfig
+      height: 313
+      upscaling: false
+      width: 313
+      compression: 1.0
+      cropping: false
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/myproject:largesquare:
+      .meta:order-before: myproject:banner
+      jcr:primaryType: frontend:pluginconfig
+      height: 663
+      upscaling: false
+      width: 663
+      compression: 1.0
+      cropping: false
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/myproject:banner:
+      jcr:primaryType: frontend:pluginconfig
+      height: 250
+      upscaling: false
+      width: 1070
+      compression: 1.0
+      cropping: false
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/localeProviderService/cn:
+      jcr:primaryType: frontend:pluginconfig
+      country: cn
+      language: cn

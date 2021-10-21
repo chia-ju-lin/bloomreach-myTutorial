@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/newspage:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/twocolumns
+      /main:
+        jcr:primaryType: hst:component
+        /left:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: newspage/main/left
+        /right:
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: de5156fb-90d0-4c79-9bfe-24159a978910
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+          hst:template: newspage-relatednews

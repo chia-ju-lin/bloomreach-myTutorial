@@ -1,0 +1,29 @@
+/hst:hst/hst:configurations/cn-project/hst:workspace/hst:sitemap/cn:
+  jcr:primaryType: hst:sitemapitem
+  hst:componentconfigurationid: hst:pages/newslist
+  hst:pagetitle: List of News Items
+  hst:relativecontentpath: cn
+  /_any_:
+    jcr:primaryType: hst:sitemapitem
+    hst:componentconfigurationid: hst:pages/newslist
+    hst:relativecontentpath: ${parent}/${1}
+    /_any_:
+      jcr:primaryType: hst:sitemapitem
+      hst:componentconfigurationid: hst:pages/newslist
+      hst:relativecontentpath: ${parent}/${2}
+    /_any_.html:
+      jcr:primaryType: hst:sitemapitem
+      hst:componentconfigurationid: hst:pages/newspage
+      hst:relativecontentpath: cn/${2}
+  /_any_.html:
+    jcr:primaryType: hst:sitemapitem
+    hst:componentconfigurationid: hst:pages/newspage
+    hst:relativecontentpath: cn/${1}
+  /2019:
+    jcr:primaryType: hst:sitemapitem
+    /11:
+      jcr:primaryType: hst:sitemapitem
+      /_any_.html:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/newspage
+        hst:relativecontentpath: ${parent}/${1}

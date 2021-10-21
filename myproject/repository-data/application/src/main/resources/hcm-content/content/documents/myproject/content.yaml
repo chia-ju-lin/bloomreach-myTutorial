@@ -1,0 +1,227 @@
+/content/documents/myproject/content:
+  .meta:order-before: about
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 08459c95-37af-4bb1-b741-cf141f8439e7
+  hippostd:foldertype: [new-content-document, new-content-folder]
+  hippotranslation:id: 39a053d0-58d2-482f-8e46-a5fed0772432
+  hippotranslation:locale: en
+  /sample-document:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 64ab4648-0c20-40d2-9f18-d7a394f0334b
+    hippo:name: Sample document
+    /sample-document:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2cf09797-4795-4972-94db-6a84ed2afebb
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-25T16:52:00+01:00
+      hippotranslation:id: e6bbcd29-9d98-41d9-a2d2-07ce495eda97
+      hippotranslation:locale: en
+      myproject:introduction: Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry.
+      myproject:publicationdate: 2014-03-25T16:52:00+01:00
+      myproject:title: Lorem
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <html>
+                      <body>
+
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                      roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                      years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                      Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                      Lorem Ipsum passage, and going through the cites of the word in classical
+                      literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                      1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                      Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                      ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                      "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                      </body>
+                      </html>
+  /another-sample-document:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 9caea793-42b1-4f3e-a8e5-d58f810ce2ef
+    hippo:name: Another sample document
+    /another-sample-document:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6c0444cc-bd74-4322-8833-17337d6b288b
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-25T16:57:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-25T16:57:00+01:00
+      hippotranslation:id: 053f40bb-e9cf-4179-8b77-6625dbddf1e7
+      hippotranslation:locale: en
+      myproject:introduction: Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry.
+      myproject:publicationdate: 2014-03-25T16:52:00+01:00
+      myproject:title: Another Lorem
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <html>
+                      <body>
+
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                      roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                      years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                      Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                      Lorem Ipsum passage, and going through the cites of the word in classical
+                      literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                      1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                      Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                      ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                      "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                      </body>
+                      </html>
+  /quick-facts:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: c8bcbdcb-d2a4-4b9a-8c02-1c369f5a62be
+    hippo:name: Quick Facts
+    hippo:versionHistory: 44281521-ad96-46f4-bfa1-3a4c2523ca5e
+    /quick-facts[1]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3d72a103-0c55-43c7-abcf-9ac7d7dddbc6
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-09-24T19:23:53.500+02:00
+      hippostdpubwf:lastModificationDate: 2021-09-24T19:23:53.500+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e9c9742d-3e4f-4a27-a48d-adab1ce5eb96
+      hippotranslation:locale: en
+      myproject:introduction: quick facts introduction
+      myproject:publicationdate: 2021-09-24T19:24:00+02:00
+      myproject:title: quick facts
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>quick facts content</p>
+    /quick-facts[2]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 521b9e25-6495-4291-bb3f-e8dd319081f3
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-09-24T19:23:53.500+02:00
+      hippostdpubwf:lastModificationDate: 2021-09-24T19:24:27.604+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e9c9742d-3e4f-4a27-a48d-adab1ce5eb96
+      hippotranslation:locale: en
+      myproject:introduction: quick facts introduction
+      myproject:publicationdate: 2021-09-24T19:24:00+02:00
+      myproject:title: quick facts
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>quick facts content</p>
+    /quick-facts[3]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5826aaa3-1cfa-400e-b589-0bfcbab6a853
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-09-24T19:23:53.500+02:00
+      hippostdpubwf:lastModificationDate: 2021-09-24T19:24:27.604+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-09-24T19:24:33.996+02:00
+      hippotranslation:id: e9c9742d-3e4f-4a27-a48d-adab1ce5eb96
+      hippotranslation:locale: en
+      myproject:introduction: quick facts introduction
+      myproject:publicationdate: 2021-09-24T19:24:00+02:00
+      myproject:title: quick facts
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>quick facts content</p>
+  /terms--conditions:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 56ccdc3f-88c1-4c04-a8fa-7021e34072c6
+    hippo:name: Terms & Conditions
+    hippo:versionHistory: a5523767-b7ee-4852-98f6-0c6d76d0b418
+    /terms--conditions[1]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: cee2c721-8884-47da-8df8-66f24267e259
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:holder: admin
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-09-24T19:24:55.626+02:00
+      hippostdpubwf:lastModificationDate: 2021-09-24T19:29:42.410+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 96b53f02-0658-441d-b502-897be51b6955
+      hippotranslation:locale: en
+      myproject:introduction: Terms & Conditions
+      myproject:publicationdate: 2021-09-24T19:25:00+02:00
+      myproject:title: Terms & Conditions
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Terms &amp; Conditions</p>
+    /terms--conditions[2]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 9e4f2aec-a793-43c3-9679-a824e06521e4
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-09-24T19:24:55.626+02:00
+      hippostdpubwf:lastModificationDate: 2021-09-24T19:25:02.223+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 96b53f02-0658-441d-b502-897be51b6955
+      hippotranslation:locale: en
+      myproject:introduction: Terms & Conditions
+      myproject:publicationdate: 2021-09-24T19:25:00+02:00
+      myproject:title: Terms & Conditions
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Terms &amp; Conditions</p>
+    /terms--conditions[3]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 4018073f-894c-4f21-bcc1-765ed5985020
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-09-24T19:24:55.626+02:00
+      hippostdpubwf:lastModificationDate: 2021-09-24T19:25:02.223+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-09-24T19:25:05.987+02:00
+      hippotranslation:id: 96b53f02-0658-441d-b502-897be51b6955
+      hippotranslation:locale: en
+      myproject:introduction: Terms & Conditions
+      myproject:publicationdate: 2021-09-24T19:25:00+02:00
+      myproject:title: Terms & Conditions
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Terms &amp; Conditions</p>

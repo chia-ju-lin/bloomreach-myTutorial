@@ -1,0 +1,4 @@
+/hst:hst/hst:configurations/cn-project/hst:workspace/hst:sitemenus/main/home:
+  .meta:order-before: cn
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: root

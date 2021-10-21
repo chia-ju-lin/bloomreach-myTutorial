@@ -1,0 +1,117 @@
+/content/documents/cn-project/cn:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 1afa5210-29cb-4aec-8a3a-05a59670ad78
+  hippostd:foldertype: [new-news-document, new-news-folder]
+  hippotranslation:id: 8125585d-593e-4bc8-afc5-fd022da2848a
+  hippotranslation:locale: cn
+  /2019:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: f886075a-83ba-4c27-a74a-0ffb747f90aa
+    hippo:name: '2019'
+    hippostd:foldertype: [new-news-document, new-news-folder]
+    hippotranslation:id: d45f87b9-f424-4e75-9b37-67011795fb0a
+    hippotranslation:locale: cn
+    /11:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 61786411-17ea-474d-8f85-c91c9598c960
+      hippostd:foldertype: [new-news-document, new-news-folder]
+      hippotranslation:id: e061afbb-78dc-4651-a843-7ed30375daf2
+      hippotranslation:locale: cn
+      /2013-cn:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: 123f05f2-dcb0-4f0e-a720-0b6344d224e9
+        hippo:name: 2013 cn
+        hippo:versionHistory: 3783a112-6c8a-469e-9c44-5fb295d86e28
+        /2013-cn[1]:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 275f5d5d-b22f-4ed6-861e-db7047f819fd
+          hippo:availability: [live]
+          hippostd:holder: admin
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T14:31:00+01:00
+          hippostdpubwf:lastModificationDate: 2021-10-05T08:55:46.250+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2021-10-05T08:55:50.989+02:00
+          hippotranslation:id: 59a26cd2-ad4b-4ccd-82ad-7dbf49eb000a
+          hippotranslation:locale: cn
+          myproject:author: Alfred Anonymous
+          myproject:date: 2021-10-05T08:55:00+02:00
+          myproject:documenttype: news
+          myproject:introduction: Lcncnccn
+          myproject:location: Rome
+          myproject:source: ''
+          myproject:title: 2013 cn
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>something cn cncn</p>
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: beff458e-e07a-4065-8cad-8d96b67d13ec
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /2013-cn[2]:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: aed00028-3cb7-46c8-b4f2-2d0779514256
+          hippo:availability: [preview]
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T14:31:00+01:00
+          hippostdpubwf:lastModificationDate: 2021-10-05T08:55:46.250+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 59a26cd2-ad4b-4ccd-82ad-7dbf49eb000a
+          hippotranslation:locale: cn
+          myproject:author: Alfred Anonymous
+          myproject:date: 2021-10-05T08:55:00+02:00
+          myproject:documenttype: news
+          myproject:introduction: Lcncnccn
+          myproject:location: Rome
+          myproject:source: ''
+          myproject:title: 2013 cn
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>something cn cncn</p>
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: beff458e-e07a-4065-8cad-8d96b67d13ec
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /2013-cn[3]:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 45c9a97e-c352-43e2-ae47-3592ffdfd5e2
+          hippo:availability: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T14:31:00+01:00
+          hippostdpubwf:lastModificationDate: 2021-10-05T08:55:13.155+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 59a26cd2-ad4b-4ccd-82ad-7dbf49eb000a
+          hippotranslation:locale: cn
+          myproject:author: Alfred Anonymous
+          myproject:date: 2021-10-05T08:55:00+02:00
+          myproject:documenttype: news
+          myproject:introduction: Lcncnccn
+          myproject:location: Rome
+          myproject:source: ''
+          myproject:title: 2013 cn
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>something cn cncn</p>
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: beff458e-e07a-4065-8cad-8d96b67d13ec
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []

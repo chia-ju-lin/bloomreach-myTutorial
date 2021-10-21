@@ -1,0 +1,7 @@
+/hst:hst/hst:configurations/myproject/hst:workspace/hst:containers/homepage/main/featured-products:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentdefinition: hst:components/myproject-catalog/featured-products
+  hst:parameternames: [document8, document7, document9, document4, document3, document6,
+    document10, document5, pageSize, document2, showPagination, document1]
+  hst:parametervalues: ['', '', '', '', products/family-tant, '', '', '', '10', products/product-2,
+    'off', products/product-1]

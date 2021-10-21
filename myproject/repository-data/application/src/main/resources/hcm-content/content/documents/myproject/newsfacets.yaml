@@ -1,0 +1,6 @@
+/content/documents/myproject/newsfacets:
+  jcr:primaryType: hippofacnav:facetnavigation
+  hippo:docbase: e487f8c6-ab26-4b56-b147-abf590199d19
+  hippofacnav:facetnodenames: [Location, Author, Year]
+  hippofacnav:facets: ['myproject:location', 'myproject:author', 'myproject:date$year']
+  hippofacnav:filters: ['jcr:primaryType=myproject:newsdocument']
